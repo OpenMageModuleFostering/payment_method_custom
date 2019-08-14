@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Payment_Method_Custom</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The extension is easy to install and use. The Order Comment Extension is lightweight, completes the task with minimum obstruction, and is in line with the Magento Order Management Workflow.</summary>
+    <description>This extension allows admin to add their own payment method while using placing orders. The admin can view which customer using their payment method on sales order grid and this is also added to the invoice. Payment method for Magento enables you to provide better to cash on delivery customers by letting them write an about the order at time of checkout. The admin can view payment method in the form of grid listing or in the order detail page as a customer order request. &#xD;
+&#xD;
+The extension is easy to install and use. The Order Comment Extension is lightweight, completes the task with minimum obstruction, and is in line with the Magento Order Management Workflow.</description>
+    <notes>First Release</notes>
+    <authors><author><name>Chandan Kumar Singh</name><user>chandan8050</user><email>chandankumar8050@gmail.com</email></author></authors>
+    <date>2016-12-19</date>
+    <time>06:09:02</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Chandan_Chandanpayment.xml" hash="3c73c9876b2ced215166a0c6957f4496"/></dir></target><target name="magecommunity"><dir name="Chandan"><dir name="Chandanpayment"><dir name="Block"><dir name="Adminhtml"><dir name="Order"><file name="Grid.php" hash="26877410e72a44c3381cf04547600946"/><dir name="Renderer"><file name="Productname.php" hash="3ac8321d1e4c38526115907c06a6e606"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="0d4e6728d8dee11af7adbdbc47c20024"/></dir><dir name="Model"><file name="Chandanpayment.php" hash="b68ab17412f746228b3ec05475f21539"/></dir><dir name="etc"><file name="config.xml" hash="836940db0bf9b94d062a957935413784"/><file name="system.xml" hash="2e640dfde62f5782f3be945853c1d4e4"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
