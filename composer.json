@@ -1,5 +1,5 @@
 {
-    "name": "OpenMageModuleFostering\/Payment_Method_Custom",
+    "name": "openmage-module-fostering\/payment_method_custom",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
